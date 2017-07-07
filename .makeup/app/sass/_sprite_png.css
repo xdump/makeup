@@ -1,0 +1,162 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-Luxoft-logo {
+  background-image: url(sprite.png);
+  background-position: 0px -356px;
+  width: 135px;
+  height: 71px;
+}
+.icon-NetCracker {
+  background-image: url(sprite.png);
+  background-position: -511px 0px;
+  width: 163px;
+  height: 40px;
+}
+.icon-ciklum {
+  background-image: url(sprite.png);
+  background-position: -165px -356px;
+  width: 172px;
+  height: 37px;
+}
+.icon-facebook {
+  background-image: url(sprite.png);
+  background-position: -441px -259px;
+  width: 31px;
+  height: 31px;
+}
+.icon-footer_email {
+  background-image: url(sprite.png);
+  background-position: -191px -457px;
+  width: 24px;
+  height: 24px;
+}
+.icon-footer_fb {
+  background-image: url(sprite.png);
+  background-position: -511px -302px;
+  width: 83px;
+  height: 83px;
+}
+.icon-footer_phone {
+  background-image: url(sprite.png);
+  background-position: -137px -457px;
+  width: 24px;
+  height: 24px;
+}
+.icon-footer_yt {
+  background-image: url(sprite.png);
+  background-position: -511px -189px;
+  width: 84px;
+  height: 83px;
+}
+.icon-format_ico_1 {
+  background-image: url(sprite.png);
+  background-position: 0px -178px;
+  width: 148px;
+  height: 148px;
+}
+.icon-format_ico_2 {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 148px;
+  height: 148px;
+}
+.icon-format_ico_3 {
+  background-image: url(sprite.png);
+  background-position: -178px -178px;
+  width: 148px;
+  height: 148px;
+}
+.icon-format_ico_4 {
+  background-image: url(sprite.png);
+  background-position: -178px 0px;
+  width: 148px;
+  height: 148px;
+}
+.icon-intropro {
+  background-image: url(sprite.png);
+  background-position: -356px -111px;
+  width: 101px;
+  height: 40px;
+}
+.icon-knowledge_eng {
+  background-image: url(sprite.png);
+  background-position: -624px -302px;
+  width: 50px;
+  height: 46px;
+}
+.icon-knowledge_git {
+  background-image: url(sprite.png);
+  background-position: -621px -70px;
+  width: 48px;
+  height: 48px;
+}
+.icon-knowledge_java {
+  background-image: url(sprite.png);
+  background-position: 0px -457px;
+  width: 44px;
+  height: 44px;
+}
+.icon-knowledge_spring {
+  background-image: url(sprite.png);
+  background-position: -625px -189px;
+  width: 44px;
+  height: 44px;
+}
+.icon-knowledge_sql {
+  background-image: url(sprite.png);
+  background-position: -74px -457px;
+  width: 33px;
+  height: 42px;
+}
+.icon-knowledge_uml {
+  background-image: url(sprite.png);
+  background-position: -356px -259px;
+  width: 55px;
+  height: 39px;
+}
+.icon-logo {
+  background-image: url(sprite.png);
+  background-position: -511px -70px;
+  width: 80px;
+  height: 89px;
+}
+.icon-q1 {
+  background-image: url(sprite.png);
+  background-position: -356px 0px;
+  width: 125px;
+  height: 81px;
+}
+.icon-q2 {
+  background-image: url(sprite.png);
+  background-position: -356px -181px;
+  width: 73px;
+  height: 48px;
+}
+.icon-vk {
+  background-image: url(sprite.png);
+  background-position: -367px -356px;
+  width: 31px;
+  height: 31px;
+}
+.icon-youtube {
+  background-image: url(sprite.png);
+  background-position: -428px -356px;
+  width: 31px;
+  height: 31px;
+}

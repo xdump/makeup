@@ -1,0 +1,9 @@
+/.idea/
+/.makeup/app/img/
+/.makeup/app/sprite/
+/node_modules/
+/.git/
+/app/css/
+/**/Thumbs.db
+/**/*.DS_Store
+/Nginx-1.11_vhost.conf
