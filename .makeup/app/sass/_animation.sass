@@ -1,0 +1,40 @@
+.wow
+  visibility: hidden
+.animated
+  animation-duration: 1s
+  animation-fill-mode: both
+.animated.hinge
+  animation-duration: 2s
+
+// wow fadeInUp
+@keyframes fadeInUp
+  0%
+    opacity: 0
+    transform: translateY(20px)
+  100%
+    opacity: 1
+    transform: translateY(0)
+.fadeInUp
+  animation-name: fadeInUp
+
+// wow fadeInRight
+@keyframes fadeInRight
+  0%
+    opacity: 0
+    transform: translateX(20px)
+  100%
+    opacity: 1
+    transform: translateX(0)
+.fadeInRight
+  animation-name: fadeInRight
+
+// wow fadeInLeft
+@keyframes fadeInLeft
+  0%
+    opacity: 0
+    transform: translateX(-20px)
+  100%
+    opacity: 1
+    transform: translateX(0)
+.fadeInLeft
+  animation-name: fadeInLeft

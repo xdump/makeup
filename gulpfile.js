@@ -67,8 +67,8 @@ gulp.task('sprite-png', function () {
     }));
     var imgStream = spriteData.img
         .pipe(buffer())
-        //.pipe(imagemin([], {}))
-        .pipe(gulp.dest('.makeup/app/img/'));
+        .pipe(imagemin([], {}))
+        .pipe(gulp.dest('web/css'));
     var cssStream = spriteData.css
         .pipe(gulp.dest('.makeup/app/sass/'));
     return merge(imgStream, cssStream);
@@ -82,8 +82,8 @@ gulp.task('sprite-jpg', function () {
     }));
     var imgStream = spriteData.img
         .pipe(buffer())
-        //.pipe(imagemin([], {}))
-        .pipe(gulp.dest('.makeup/app/img/'));
+        .pipe(imagemin([], {}))
+        .pipe(gulp.dest('web/css'));
     var cssStream = spriteData.css
         .pipe(gulp.dest('.makeup/app/sass/'));
     return merge(imgStream, cssStream);
